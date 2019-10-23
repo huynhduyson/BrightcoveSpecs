@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 	s.source       = { :git => "https://github.com/brightcove/brightcove-player-sdk-ios-googlecast.git", :tag => "v#{s.version}" }
 	s.requires_arc = true
 
-	s.dependency 'Brightcove-Player-Core', '6.4.4'
+	s.dependency 'Brightcove-Player-Core', '6.4.5'
 	s.dependency 'google-cast-sdk', '4.4.5'
 	
 	s.vendored_framework   = "ios/BrightcoveGoogleCast.framework"
